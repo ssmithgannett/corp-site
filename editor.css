@@ -1,0 +1,100 @@
+/* Import custom fonts */
+
+@font-face {
+	font-family: 'Unify Sans';
+	src: url('fonts/UnifySans_W_Rg.woff2') format('woff2'),
+		 url('fonts/UnifySans_W_Rg.woff') format('woff'),
+		 url('fonts/UnifySans_A_Rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Unify Sans';
+	src: url('fonts/UnifySans_W_It.woff2') format('woff2'),
+		 url('fonts/UnifySans_W_It.woff') format('woff'),
+		 url('fonts/UnifySans_A_It.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Unify Sans';
+	src: url('fonts/UnifySans_W_SBd.woff2') format('woff2'),
+			url('fonts/UnifySans_W_SBd.woff') format('woff'),
+			url('fonts/UnifySans_A_SBd.ttf') format('truetype');
+	font-weight: 500 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Unify Sans';
+	src: url('fonts/UnifySans_W_SBdIt.woff2') format('woff2'),
+			url('fonts/UnifySans_W_SBdIt.woff') format('woff'),
+			url('fonts/UnifySans_A_SBdIt.ttf') format('truetype');
+	font-weight: 500 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Unify Sans';
+	src: url('fonts/UnifySans_W_Bd.woff2') format('woff2'),
+			url('fonts/UnifySans_W_Bd.woff') format('woff'),
+			url('fonts/UnifySans_A_Bd.ttf') format('truetype');
+	font-weight: 700 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Unify Sans';
+	src: url('fonts/UnifySans_W_BdIt.woff2') format('woff2'),
+			url('fonts/UnifySans_W_BdIt.woff') format('woff'),
+			url('fonts/UnifySans_A_BdIt.ttf') format('truetype');
+	font-weight: 700 800;
+	font-style: italic;
+}
+
+.wp-block .editor-post-title__input {
+	font-family: 'Unify Sans', sans-serif;
+}
+
+.wp-block-heading {
+	font-family: 'Unify Sans', sans-serif;
+}
+
+.wp-block-heading h1 {
+	color: #009BFF;
+	text-transform: uppercase;
+}
+
+.wp-block-heading h2 {
+	text-transform: uppercase;
+}
+
+.editor-rich-text {
+	font-family: 'Unify Sans', sans-serif;
+}
+
+.metaslider-flex .caption-wrap {
+	position: static;
+	background: #fff;
+	color: #000;
+	opacity: 1;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	line-height: 2.2em;
+	font-family: 'Unify Sans', sans-serif;
+	padding: 20px 20px 0px 20px;
+}
+
+.metaslider-flex .caption-wrap p {
+	line-height: 1;
+}
+
+.metaslider-flex .caption-wrap h1 {
+	color: #009BFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 10px auto 0px 0px;
+}
